@@ -18,10 +18,15 @@
 
 
 
+
+
 /*: question2
  ### 2. You need to create a list that contains the numbers from 1 to 10. How would you represent this list in code? Explicitly mark the content of the cart as numbers.
  */
 // write your code here
+
+
+
 
 
 
@@ -33,6 +38,10 @@
 
 
 
+
+
+
+
 /*: question4
  ### 4. Take the list of shopping cart items you created in question 1 and print their values in the most efficient way possible. Prefix each item in the array with a string of text.
  */
@@ -40,10 +49,18 @@
 
 
 
+
+
+
+
 /*: question5
  ### 5. Take the list of shopping cart items you created in question 1 and print their values by passing each item in list to a function to be printed.
  */
 // write your code here
+
+
+
+
 
 
 
@@ -56,13 +73,17 @@
 
 
 
+
 /*: question7
  ### 7. Create a function that takes an array of Ints (40, 60, 50, 52, 59, 13, 90, 100, 5, 52, 51, 49) and returns an array of Ints. This function should look through the array of Ints and create a new array of Ints that only contain integers less than 50.
  */
 // write your code here
 
 
-/*:
- [Solution](solution)
- */
-// ❤️
+
+
+
+
+
+
+//: Check here on the solution branch for a link to the solution file
