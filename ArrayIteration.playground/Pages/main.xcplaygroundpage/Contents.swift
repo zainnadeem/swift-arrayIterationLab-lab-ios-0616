@@ -15,6 +15,8 @@
  */
 // write your code here
 
+var partyItems:[String] = ["Chips", "Salsa", "Guacamole", "Red wine"]
+
 
 
 
@@ -25,7 +27,7 @@
  */
 // write your code here
 
-
+var cartOfNumbers = [1,2,3,4,5,6,7,8,9,10]
 
 
 
@@ -35,6 +37,10 @@
  ### 3. Take the list of numbers you created in question 2 and print their values in the most efficient way possible.
  */
 // write your code here
+
+for number in cartOfNumbers {
+    print(number)
+}
 
 
 
@@ -46,7 +52,9 @@
  ### 4. Take the list of shopping cart items you created in question 1 and print their values in the most efficient way possible. Prefix each item in the array with a string of text.
  */
 // write your code here
-
+for item in partyItems{
+    print("We Need \(item)")
+}
 
 
 
@@ -58,7 +66,15 @@
  */
 // write your code here
 
+func printCartItems(cart:[String]){
+    for item in cart{
+        print("We Need \(item)")
+        
+    }
+    
+}
 
+printCartItems(partyItems)
 
 
 
@@ -69,7 +85,17 @@
  */
 // write your code here
 
+func greeting (names:[String]){
+    for name in names{
+        if name == "Michael"{
+              print("Top of the morning Michael!")
+        }else{
+         
+            print("Good morning \(name)")
+        }
+}
 
+}
 
 
 
@@ -79,9 +105,17 @@
  */
 // write your code here
 
+    func lessThan50Array(numbersArray:[Int])->[Int]{
+        var lessThan50Array:[Int] = []
+        for number in numbersArray{
+            if number < 50{
+                lessThan50Array.append(number)
+            }
+        }
+        return lessThan50Array
+}
 
-
-
+lessThan50Array([40, 60, 50, 52, 59, 13, 90, 100, 5, 52, 51, 49])
 
 
 
